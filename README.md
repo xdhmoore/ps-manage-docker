@@ -3,10 +3,12 @@
 
 This is a collection of semi-hacky functions for starting/stopping Docker and/or WSL.
 
-## Installation
+## Requirements
 
+* Tested only in PowerShell Core
 * Requires AutoHotkey to be installed in order to shutdown docker desktop via the system tray. I did say "semi-hacky"...
-* Run the following or add to your profile:
+* Modify the variables at the top of Manage-DockerWsl.ps1 as needed.
+* Run the following or add to your PowerShell profile:
 `Import-Module ./path/to/Manage-DockerWsl.ps1`
 
 ## Some of the Functions:

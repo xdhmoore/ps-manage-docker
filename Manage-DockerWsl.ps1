@@ -3,7 +3,8 @@ $DOCKER_DESKTOP_EXE="C:\Program Files\Docker\Docker\Docker Desktop.exe"
 $WSL_SWAP_FILE="${env:TMP}/wsl2_swap.vhdx"
 
 # This is not included in the git repo for now because it has a ton of unnecessary
-# stuff in it. This only affects the Start-WatchSwapWidget function.
+# stuff in it. This only affects the Start-WatchSwapWidget function, which is just
+# a gui wrapper for the Watch-Swap function.
 $CONEMU_CONFIG="$PSScriptRoot\watch_swap_conemu.xml"
 
 Function Stop-Docker() {
